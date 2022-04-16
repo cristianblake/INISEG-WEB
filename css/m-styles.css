@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1256px) {
+    #desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1256px) {
+    #mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 764px) {
+    .m-hero__separator {
+        display: none;
+    }
+    .m-cards {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    .d-hero__separator {
+        display: none;
+    }
+    .d-cards {
+        display: none;
+    }
+}
+
+.m-hero {
+    background: url(/images/m-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+}
+
+.m-hero__separator {
+    position: absolute;
+    min-width: 550px;
+    bottom: -405px;
+}
+
+.d-hero__separator {
+    position: absolute;
+    bottom: -205px;
+}
+
+.m-hero__yellow {
+    background: #f2cd2e;
+    padding: 15px 30px;
+    border-radius: 35px 35px 0 0;
+}
+
+.m-hero__yellow__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.m-hero__yellow___p {
+    margin: 0;
+}
+
+.m-hero__about {
+    background: #fff;
+    padding: 20px 1px;
+    border-radius: 0 0 35px 35px;
+    border-bottom: #f2cd2e solid 4px;
+}
+
+.m-hero__video {
+    border-radius: 12px;
+}
+
+.m-hero__about___p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.m-cards {
+    padding: 470px 5px 0 5px;
+    padding-top: 470px;
+}
+
+.m-cards__title {
+    text-align: center;
+}
+
+
+
+.d-cards {
+    padding-top: 250px;
+}
+
+.alianzas {
+    padding-top: 150px;
+}
+
+.actualidad {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actualidad__p {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.amarilla {
+    background: #f2cd2e;
+    padding: 70px;
+    margin: 100px 0 0 0;
+}
+
+.amarilla__p {
+    font-size: 1.3rem;
+}
+
+.amarilla__p___variant {
+    font-size: 1.4rem;
+}
+
+.eventos {
+    padding: 50px 0;
+}
+
+.eventos__p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.eventos__p___variant {
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.m-footer__p {
+    color: #FFFFFFBF;
+}
+
+.m-footer__i {
+    color: #FFFFFFBF;
+}
